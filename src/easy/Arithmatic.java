@@ -1,10 +1,10 @@
-package practice;
+package easy;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-class Arithmetic{
+class Arithmatic{
     public Integer sum(Integer[] ints){
         int sum=0;
         for (Integer integer : ints) {
@@ -25,7 +25,7 @@ class Arithmetic{
         BufferedReader b= new BufferedReader(new InputStreamReader(System.in));
         String[] s= b.readLine().split(" ");
         Integer[] in=new Integer[s.length];
-        Arithmetic A= new Arithmetic();
+        Arithmatic A= new Arithmatic();
         System.out.println(Character.isDigit(s[0].charAt(0)));
         if(Character.isDigit(s[0].charAt(0))){
             for (int i=0;i<s.length;i++) {
